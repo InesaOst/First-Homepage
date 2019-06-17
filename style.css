@@ -34,9 +34,20 @@
 .body {
     min-height: 700px;  
 } 
-.sidebar{
-    min-height: 100px; 
-}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(196, 215, 235);
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 15px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 15px;
+  }
 .footer {
     min-height: 100px;
     background-color: #f77930; 
